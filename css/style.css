@@ -1,156 +1,254 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
 .link {
-    text-decoration: none;
+     text-decoration: none;
 }
-
 .list {
-    list-style-type: none;
+list-style-type:none ;
 }
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background: #FFFFFF;
+body{
+font-family: 'Roboto', sans-serif;
+color:#434455; 
+background: #FFFFFF;
 }
-
-button {
-    cursor: pointer;
+button{
+cursor: pointer;
 }
-
-.logotype {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-transform: uppercase;
-    color: #4d5ae5
+.page-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-.color {
-    color: #2e2f42;
+.logotype{
+font-family:'Raleway', sans-serif;
+margin-right: 76px;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-align: left;
+text-transform: uppercase ;
+color: #4d5ae5
 }
-
-.menu-link {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-    color: #2E2F42;
+.color{
+    color:#2e2f42; 
 }
+.container{
+    width: 1158px ;
+    margin-left: auto;
+    margin-left: auto;
+    padding-left: 15px; 
+    padding-right: 15px; 
+}
+.page-header-container{
+display: flex;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.menu{
+display: flex;
+column-gap: 40px;
+}
+.page-navigation{
+display: flex;
+align-items: center;
+width: 100%;
+max-width: 669px; ;
+}
+.menu-link{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
 
+color: #2E2F42;
+}
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+color: #404BBF;
 }
-
-.text-address {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.text-address{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455;
 }
-
-.head-address {
+.head-address{
     font-style: normal;
+    align-items: center;
+   
 }
+.social-list{
+display: flex;
+column-gap: 40px;
+margin-left: auto;
 
+}
 .text-address:hover,
-.text-address:focus {
-    color: #404BBF;
+.text-address:focus{
+color:#404BBF;
 }
-
-.text-maine {
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #2E2F42;
+/*.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}*/
+.text-maine{
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color:#FFFFFF;
+background-color: #2E2F42;
 }
-
-button {
-    background: #4D5AE5;
+.text-maine{
+ display: flex;
+padding-top: 188px;
+padding-bottom: 292px;
 }
-
+.text-hero{
+    padding-left:316 ;
+    padding-right:316 ;
+}
+button{
+background: #4D5AE5;
+}
 button:hover,
-button:focus {
-    background-color: #404BBF;
+button:focus{
+background-color: #404BBF;  
 }
-
-.text-button {
-    font-family: "Roboto", sans-serif;
+.text-button{
+font-family: "Roboto",sans-serif; 
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.benefits{
+    padding-top: 152px; 
+    padding-bottom:120px;
+}
+.benefits-list{
+display: flex;
+column-gap:24px;
+ }
+.benefits-list-item{
+width:calc((264%-72px) /4);
+}
+.benefits-list-title{
+    margin-bottom: 8px;
+}
+.team-item-list{
+    width: calc((264%/72px) /4);
+}
+.text-three{
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:#2E2F42;
+}
+.text-paragraph{
     font-size: 16px;
-    font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    }
+.column-list{
+display:flex;
+column-gap: 32px;
+} 
+.container-team{
+    padding-bottom: 72px;
+}  
+.our-title-item {
+    padding-top: 120px;
+    padding-bottom: 72px;
+    text-align: center;
+}
+.section-our{
+    padding-top:232px ;
+    padding-bottom:120px ;
+}
+.our-team-title{
+text-align: center;
+background-color: #F4F4FD;
 }
 
-.text-three {
+.portfolio-column{
+width: calc((100%-24*4)/16);
+border:1px solid #E7E9FC;
+}
+
+.portfolio-column-one{
+    display: flex;
+    column-gap: 35px;
+}
+.two-team{
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+}
+.text-name{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #2E2F42;   
 }
-
-.text-paragraph {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.paragraf-prof{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color:#434455;
 }
-
-.our-team-title {
-    text-align: center;
-    background-color: #F4F4FD;
+.color-team{
+background-color: #FFFFFF;
 }
-
-.two-team {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.text-name {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.paragraf-prof {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
-.color-team {
-    background-color: #FFFFFF;
-}
-
-.background-foot {
+.background-foot{
     background-color: #2e2f42;
 }
-
-.paragraf-foot {
+.paragraf-foot{
     font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #F4F4FD
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #F4F4FD
 }
-
-.color-text-foot {
+.color-text-foot{
     color: #F4F4FD;
+}
+.footer-column{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+}
+.page-footer{
+padding-top: 16px;
+
 }
