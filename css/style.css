@@ -50,13 +50,13 @@ color: #4d5ae5
     width: 1158px ;
     margin-left: auto;
     margin-left: auto;
-    padding-left: 15px; 
-    padding-right: 15px; 
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .page-header-container{
 display: flex;
-padding-top: 24px;
-padding-bottom: 24px;
+padding-left: 15px;
+padding-right: 15px;
 }
 .menu{
 display: flex;
@@ -103,7 +103,7 @@ column-gap: 40px;
 .text-address:focus{
 color:#404BBF;
 }
-/*.visually-hidden{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -114,7 +114,7 @@ color:#404BBF;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}*/
+}
 .text-maine{
 font-size: 56px;
 font-weight: 700;
@@ -158,8 +158,9 @@ color: #FFFFFF;
     border: none;
     border-radius: 4px;
 }
+/*SECTION TWO*/
 .benefits{
-    padding-top: 152px; 
+    padding-top: 120px; 
     padding-bottom:120px;
 }
 .benefits-list{
@@ -186,6 +187,7 @@ color:#2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
+/*SECTION THREE*/
 .column-list{
 display:flex;
 column-gap: 32px;
