@@ -124,10 +124,13 @@ text-align: center;
 color:#FFFFFF;
 background-color: #2E2F42;
 }
+.main-item-h{
+ max-width: 496px;
+}
 .text-maine{
  display: flex;
 padding-top: 188px;
-padding-bottom: 292px;
+padding-bottom: 188px;
 }
 .text-hero{
     padding-left:316 ;
