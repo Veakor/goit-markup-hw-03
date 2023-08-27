@@ -31,7 +31,6 @@ cursor: pointer;
     margin: 0;
     padding-left: 15px;
     padding-right: 15px;
-    border-bottom: 1px solid #e7e9fc
 }
 .logotype{
 font-family:'Raleway', sans-serif;
@@ -96,7 +95,9 @@ color:#434455;
 display: flex;
 column-gap: 40px;
 margin-left: auto;
-
+}
+.menu-item{
+    border-bottom: 1px solid #e7e9fc
 }
 .text-address:hover,
 .text-address:focus{
