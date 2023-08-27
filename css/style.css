@@ -29,8 +29,8 @@ cursor: pointer;
 }
 .page-header{ 
     margin: 0;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 15px;
+    padding-buttom: 15px;
 }
 .logotype{
 font-family:'Raleway', sans-serif;
@@ -73,7 +73,6 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
 color: #2E2F42;
 }
 .menu-link:hover,
@@ -97,7 +96,8 @@ column-gap: 40px;
 margin-left: auto;
 }
 .menu-item{
-    border-bottom: 1px solid #e7e9fc
+column-gap: 40px;
+ border-bottom: 1px solid #e7e9fc
 }
 .text-address:hover,
 .text-address:focus{
