@@ -262,8 +262,18 @@ row-gap: 48px;
     column-gap: 24px;
     row-gap: 48px;
 }
+.wrap-list{
+     flex-wrap: wrap;
+    }
+    .wr-img{
+        flex-direction: row;
+    }
 .li-class-portf{
     margin-right: 24px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .two-team{
 font-size: 36px;
