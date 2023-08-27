@@ -11,7 +11,7 @@ p{
 ul,ol{
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 0;
+    padding-left: 0;
 }
 .link {
      text-decoration: none;
@@ -28,7 +28,6 @@ button{
 cursor: pointer;
 }
 .page-header{ 
-    margin: 0;
     padding-top: 15px;
     padding-buttom: 15px;
     border-bottom: 1px solid #e7e9fc
@@ -51,13 +50,16 @@ color: #4d5ae5
     width: 1158px ;
     margin-left: auto;
     margin-left: auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    
 }
 .page-header-container{
 display: flex;
-padding-left: 15px;
-padding-right: 15px;
+padding-top: 24px;
+padding-bottom: 24px;
+margin: 0;
 }
 .menu{
 display: flex;
@@ -116,6 +118,7 @@ color:#404BBF;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/*SECTION HERO*/
 .text-maine{
 font-size: 56px;
 font-weight: 700;
