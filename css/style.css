@@ -226,8 +226,8 @@ color:#2E2F42;
 /*SECTION THREE*/
 .column-list{
 display:flex;
-column-gap: 24px;
 border-radius: 0px 0px 4px 4px;
+gap: 24px;
 }
 .team-item-list {
     width: calc((100% - 72px) /4);
