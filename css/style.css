@@ -149,6 +149,7 @@ background-color: #2E2F42;
  family:Roboto;
  weight:Bold;
  size: 56px;
+ max-width: 496px;
 }
 .main-item-h{
     margin-left:auto ;
