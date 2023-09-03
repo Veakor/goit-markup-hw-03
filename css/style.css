@@ -195,6 +195,9 @@ color: #FFFFFF;
     padding-top: 120px; 
     padding-bottom:120px;
 }
+.finish{
+    margin-right: 0;
+}
 .benefits-list{
 display: flex;
 column-gap:24px;
