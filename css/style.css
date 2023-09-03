@@ -149,12 +149,12 @@ background-color: #2E2F42;
  family:Roboto;
  weight:Bold;
  size: 56px;
- max-width: 496px;
+ max-width: 
 }
 .main-item-h{
     margin-left:auto ;
     margin-right:auto ;
-    margin-bottom: 48px;
+   
 }
 .text-maine{
  display: flex;
@@ -200,6 +200,7 @@ column-gap:24px;
  }
 .benefits-list-item{
 width:calc((100% - 72px) /4);
+gap: 24px;
 }
 .benefits-list-item{
     margin-right: 0;
