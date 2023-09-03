@@ -27,6 +27,9 @@ background: #FFFFFF;
 button{
 cursor: pointer;
 }
+.img{
+    display: block;
+}
 .page-header{ 
     padding-top: 15px;
     padding-bottom: 15px;
