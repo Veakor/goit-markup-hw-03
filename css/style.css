@@ -27,9 +27,6 @@ background: #FFFFFF;
 button{
 cursor: pointer;
 }
-.img{
-    display: block;
-}
 .page-header{ 
     padding-top: 15px;
     padding-bottom: 15px;
@@ -218,6 +215,8 @@ color:#2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
+
+
 /*SECTION THREE*/
 .column-list{
 display:flex;
@@ -256,6 +255,9 @@ background-color: #F4F4FD;
 /*PORTFOLIO*/
 .our-title-item {
     text-align: center;
+}
+.port-img{
+    display: block;
 }
 .portfolio-column{
 width: calc((100% - 48px) / 3);
