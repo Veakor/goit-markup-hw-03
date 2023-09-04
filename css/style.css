@@ -119,9 +119,6 @@ margin-right: 40px
 .text-address:focus{
 color:#404BBF;
 }
-.next{
-    
-}
 .finish{
     margin-right: 0;
 }
@@ -137,7 +134,11 @@ color:#404BBF;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
 /*SECTION HERO*/
+
+
 .text-maine{
 font-size: 56px;
 font-weight: 700;
