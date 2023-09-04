@@ -108,7 +108,7 @@ color:#434455;
 
 .social-list{
 display: flex;
-column-gap: 40px;
+gap: 40px;
 margin-left: auto;
 }
 .menu-item{
