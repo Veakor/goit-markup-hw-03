@@ -149,10 +149,7 @@ color:#FFFFFF;
 background-color: #2E2F42;
 }
 .main-item-h{
- family:Roboto;
- weight:Bold;
- size: 56px;
- max-width: 
+    max-width: 496px; 
 }
 .main-item-h{
     margin-left:auto ;
@@ -198,11 +195,9 @@ color: #FFFFFF;
     padding-bottom:120px;
     margin-right: 0;
 }
-
-
 .benefits-list{
 display: flex;
-column-gap:24px;
+gap:24px;
  }
 .benefits-list-item{
 width:calc((100% - 72px) /4);
@@ -239,7 +234,7 @@ gap: 24px;
     margin-right: 0;
 }
 .color-team{
-    
+border-radius: 0px 0px 4px 4px;  
 }
 .team-item-list{
     display: block;
