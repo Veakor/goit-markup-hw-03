@@ -30,8 +30,9 @@ cursor: pointer;
 .page-header{ 
     padding-top: 15px;
     padding-bottom: 15px;
-    
-    
+}
+img{
+    display: block;
 }
 .logotype{
 font-family:'Raleway', sans-serif;
