@@ -259,13 +259,17 @@ margin-bottom: 72px;
 text-align: center;
 background-color: #F4F4FD;
 }
+.paragraf-prof{
+    text-align: center;
+}
 
 
 /*PORTFOLIO*/
 .section-porf{
 text-align: center; 
-
 }
+
+
 
 .our-title-item {
     text-align: center;
@@ -285,7 +289,7 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 .portfolio-column{
-    text-align: center;
+    justify-content: center;
 }
 .port-border{
     padding: 32px 16px;
@@ -305,6 +309,7 @@ padding-bottom: 120px;
     }
  .wr-img{
         flex-direction: row;
+        
     }
 
 .two-team{
@@ -334,7 +339,7 @@ margin-bottom: 72px;
         letter-spacing: 0.02em;
         color:#434455;
 }
-.paragraf-prof{
+.paragraf-prof-class{
     text-align: left;
 }
 /*FOOTER*/
