@@ -44,6 +44,9 @@ text-align: left;
 text-transform: uppercase ;
 color: #4d5ae5
 }
+.color{
+  color:  #2E2F42;
+}
 .container{
     width: 1158px ;
     margin-left: auto;
@@ -75,11 +78,6 @@ display: block;
 .menu-link:hover,
 .menu-link:focus {
 color: #404BBF;
-}
-.link{
-    padding-top:24px;
-    padding-bottom:24px;
-    display: block;
 }
 .text-address{
 font-size: 16px;
@@ -138,6 +136,7 @@ padding-bottom: 188px;
     max-width: 496px;
     margin-left:auto ;
     margin-right:auto ;
+    padding-bottom: 48px;
    }
 button{
 background: #4D5AE5;
@@ -326,6 +325,9 @@ margin-bottom: 16px;
         color: #F4F4FD;
         text-align: left;
         max-width: 264px;
+    }
+    .color-text-foot{
+        color: #F4F4FD;
     }
 .footer-column{
     padding-top: 100px;
