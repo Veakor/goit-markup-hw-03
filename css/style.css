@@ -162,8 +162,8 @@ padding-top: 188px;
 padding-bottom: 188px;
 }
 .text-hero{
-    padding-left:316 ;
-    padding-right:316 ;
+    padding-left:316px ;
+    padding-right:316px ;
 }
 button{
 background: #4D5AE5;
@@ -269,6 +269,11 @@ background-color: #F4F4FD;
 .port-img{
     display: block;
     }
+    
+.tam-name-two{
+    text-align: left;
+    margin-bottom: 8px 
+}
 .portfolio-column{
 width: calc((100% - 48px) / 3);
 border:1px solid #E7E9FC;
@@ -294,7 +299,7 @@ padding-bottom: 120px;
 .wrap-list{
      flex-wrap: wrap;
     }
-    .wr-img{
+ .wr-img{
         flex-direction: row;
     }
 
@@ -326,7 +331,7 @@ margin-bottom: 72px;
         color:#434455;
 }
 .paragraf-prof{
-    text-align: center;
+    text-align: left;
 }
 /*FOOTER*/
 .color-team{
