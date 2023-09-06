@@ -84,11 +84,15 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
+padding-top:24px;
+padding-bottom:24px;
+display: block;
 }
 .head-address{
     font-style: normal;
     align-items: center;
     margin-left: auto; 
+    
 }
 .social-list{
 display: flex;
