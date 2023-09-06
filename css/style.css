@@ -35,6 +35,7 @@ img{
 }
 .logotype{
 font-family:'Raleway', sans-serif;
+margin-right: 76px;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
@@ -336,4 +337,14 @@ margin-bottom: 16px;
     padding-top: 100px;
     padding-bottom: 100px;
     }
-
+    .logotype-footer{
+        font-family:'Raleway', sans-serif;
+        margin-right: 76px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-transform: uppercase ;
+        color: #4d5ae5
+    }
